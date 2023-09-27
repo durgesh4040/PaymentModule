@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang=en xmlns:th="https://www.thymeleaf.org" 
+th:replace="~{base::Layout(~{::section})}">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<section>
+<div class="card">
+<div class="card-body my-5 ">
+
+
+
+<h2 class="text-center my-3 font-italic">Donate us</h2>
+<input id="checkout" type="text" class="form-control my-2"  placeholder="Enter amouut here">
+<div class="containier text-center">
+<button type="submit" class="btn btn-success my-2" onclick="paymentstart()">Checkout</button>
+</div>
+
+</div>
+</div>
+
+</section>
+</body>
+</html>
