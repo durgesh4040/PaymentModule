@@ -24,7 +24,7 @@ public class Mycontroller {
 	private MyorderRepository myorderRespository;
 	
 	
-	@RequestMapping("/hello")
+	@RequestMapping("/")
 	//@ResponseBody
  public String view() {
 	 return "form";
